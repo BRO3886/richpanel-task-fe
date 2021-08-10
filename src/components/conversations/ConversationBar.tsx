@@ -11,7 +11,7 @@ const ConversationBar = () => {
         <div className="top-0 sticky bg-white flex flex-row items-end justify-between px-6 py-4 border-b">
           <h2 className="font-bold text-2xl pr-8">Conversations</h2>
           <span className="">
-            <Image src={reloadIcon} height="20" width="20" />
+            <Image src={reloadIcon} height="20" width="20" alt="abc" />
           </span>
         </div>
         <ul className="h-screen flex flex-col overflow-y-auto">

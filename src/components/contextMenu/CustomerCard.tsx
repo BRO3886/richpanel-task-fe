@@ -6,9 +6,11 @@ import personSvg from "../../../public/assets/person_24px.svg"
 const CustomerCard = () => {
   return (
     <div className="flex flex-col py-8 px-4 items-center border-b bg-white">
-      <img
+      <Image
         className="w-24 h-24 rounded-full mx-auto object-cover"
-        src="https://images.unsplash.com/photo-1590895340509-793cb98788c9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80"
+        src={
+          "https://images.unsplash.com/photo-1590895340509-793cb98788c9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80" as any
+        }
         alt="pp"
       />
       <h4 className="mt-2 mb-4 text-lg font-medium">Amit RG</h4>

@@ -9,7 +9,7 @@ const ChatWindow = () => {
         <div className="h-full w-full bg-grey overflow-y-auto justify-between my">
           <div className="flex-grow">
             {[...Array(n)].map((e, i) => (
-              <p>
+              <p key={i}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aliquid quia ab reiciendis.
                 Vitae repudiandae mollitia voluptatum cum dignissimos, accusamus fugiat distinctio ab
                 necessitatibus nam nemo aut. Officia, ipsam itaque.
