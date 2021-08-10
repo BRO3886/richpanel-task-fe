@@ -12,6 +12,8 @@ const CustomerCard = () => {
           "https://images.unsplash.com/photo-1590895340509-793cb98788c9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80" as any
         }
         alt="pp"
+        width="100"
+        height="100"
       />
       <h4 className="mt-2 mb-4 text-lg font-medium">Amit RG</h4>
       <div className="flex flex-row">

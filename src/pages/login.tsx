@@ -15,7 +15,7 @@ const Login = () => {
         <div>
           <small>Signed in as</small>
           <br />
-          <strong>{session.user.email || session.user.name}</strong>
+          <strong>{session.user?.email ?? session.user?.name ?? ""}</strong>
         </div>
       )}
     </div>

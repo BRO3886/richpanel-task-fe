@@ -61,7 +61,7 @@ const Sidebar = (props: Page) => {
     <aside className="h-screen sticky top-0 bg-blue">
       <div className="flex flex-col justify-center items-center">
         <div className="m-6 rounded-sm bg-white">
-          <Image src={logo}></Image>
+          <Image src={logo} height="30" width="30"></Image>
         </div>
         {content.nav.links.map((link, idx) => {
           const el = svgMap.get(link.to)
@@ -83,6 +83,8 @@ const Sidebar = (props: Page) => {
             src={
               "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1" as any
             }
+            width="30"
+            height="30"
             alt="pp"
             className="rounded-full h-8 w-8 object-cover"
           />
